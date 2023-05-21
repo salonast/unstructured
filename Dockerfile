@@ -2,7 +2,7 @@
 
 FROM centos:centos7.9.2009
 
-ARG PIP_VERSION
+ARG PIP_VERSION=20.0.2
 
 # Install dependency packages
 RUN yum -y update && \
